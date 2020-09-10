@@ -1,28 +1,17 @@
-h2 {
-    color: #0B470D;
-    font-family: "Georgia";
-    text-alight: center;
+.header {
+    color: blue;
 }
 
-h3 {  color: #0B470D;
-    font-family: "Georgia";
-    text-alight: center;
+table {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid black;
 }
 
-
-a{
-    text-decoration: none
+th {
+    border: 1px solid black;
 }
 
-span{
-    text-transform: uppercase
-}
-
-a:hover {
-    text-decoration: underline;
-    }
-
-img {float: left;
-    width: 25%; 
-    padding-right: 30px; 
+td {
+     border: 1px solid black;
 }
