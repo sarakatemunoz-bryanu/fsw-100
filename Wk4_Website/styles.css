@@ -1,0 +1,23 @@
+body{
+    font-family: cursive;
+    Font-color: Black;
+    Background-color: gray;
+    Text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    table-decoration:double ;
+    table-align: center;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}   
+
+
+img {
+    padding-bottom: 30px;
+    padding-right: 10px;    
+}
