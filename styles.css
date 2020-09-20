@@ -1,17 +1,39 @@
-.header {
-    color: blue;
+body {
+    background-color: orangered;
+    font-family:"georgia";
+
 }
 
-table {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border: 1px solid black;
+
+}
+h2 {
+    color: black;
+    text-align: center;
 }
 
-th {
-    border: 1px solid black;
+h3 {  color: black;
+    text-align: center;
+
 }
 
-td {
-     border: 1px solid black;
+a:hover {
+
+    text-justify: center;
+    text-decoration: none;
+    color: black;
+
+    }
+
+img {float: left;
+    width: 25%;
+    height: 25%; 
+    padding-bottom: 30px;
+    padding-right: 10px; 
+}
+    
+article {
+    margin: 0;
+    padding: 20px;
+    border: solid black;
+
 }
