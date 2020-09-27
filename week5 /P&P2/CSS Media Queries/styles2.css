@@ -1,0 +1,133 @@
+/*for Mobile Phones*/ 
+*{
+    width: 100%;
+    text-align:center;
+    text-justify: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-color: white
+}
+header{
+    background-color: rgb(228, 50, 139);
+}  
+
+nav{
+    background-color: rgb(109, 41, 109);
+}
+
+main{
+    background-color:rgb(136, 245, 183);
+}
+
+aside{
+    background-color: steelblue;
+}
+
+footer{
+    background-color: teal;
+}
+
+/*for Tablets min 768px*/
+@media screen and (min-width: 768px) and (max-width: 1200px){
+body{
+display: grid;
+grid-gap: 5px;
+grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+column-width: 25% 25% 25% 25%;
+grid-template-rows: 100px 100px 100px 100px;
+grid-template-areas:
+ "h h h h"
+ "n c c c"
+ "a a a a"
+ "f f f f";
+}
+
+header{
+grid-area: h;
+background-color: rgb(228, 50, 139);
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row: 1;
+}
+
+nav{
+grid-area: n;
+background-color: rgb(109, 41, 109);
+grid-column: 1/2;
+grid-row: 2;
+}
+
+main{
+grid-area: c;
+background-color:rgb(136, 245, 183);
+grid-column: 2/5;
+grid-row: 2;
+}
+
+aside{
+grid-area: a;
+background-color: steelblue;
+grid-column: 1/5;
+grid-row: 3;
+}
+
+footer{
+grid-area: f;
+background-color: teal;
+grid-column: 1/5;
+grid-row: 4;
+}
+}
+
+/*for desktops min 1200px*/
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    body{
+    display: grid;
+    grid-gap: 5px;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    column-width: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:
+     "h h h h"
+     "n c c a"
+     "f f f f";
+    }
+    
+    header{
+    grid-area: h;
+    background-color: rgb(228, 50, 139);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 1;
+    }
+    
+    nav{
+    grid-area: n;
+    background-color: rgb(109, 41, 109);
+    grid-column: 1/2;
+    grid-row: 2;
+    }
+    
+    main{
+    grid-area: c;
+    background-color:rgb(136, 245, 183);
+    grid-column: 2/4;
+    grid-row: 2;
+    }
+    
+    aside{
+    grid-area: a;
+    background-color: steelblue;
+    grid-column: 4/5;
+    grid-row: 2;
+    }
+    
+    footer{
+    grid-area: f;
+    background-color: teal;
+    grid-column: 1/5;
+    grid-row: 3;
+    }
+    }
